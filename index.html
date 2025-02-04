@@ -7,16 +7,17 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <style>
-        path:hover{
-            transform: scale(1.25);
-            fill: #f1c235;
-        }
 
         path{
             transition: transform 0.5s;
             transform-origin: center center;
             will-change: transform;
             transform-box: fill-box;
+        }
+        path:hover{
+            transform: scale(1.25);
+            fill: rgb(230, 251, 253);
+            stroke: rgb(75, 233, 245);
         }
 
     </style>
